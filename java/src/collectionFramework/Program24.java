@@ -18,13 +18,13 @@ public class Program24 {
 		
 		ListIterator<Integer> lit = l1.listIterator(l1.size()); 
 		
+		while(lit.hasPrevious())
+			System.out.println(lit.previous());
 		
 		System.out.println("====================================");
 		
 		while(lit.hasNext())
 			System.out.println(lit.next());
 		
-		while(lit.hasPrevious())
-			System.out.println(lit.previous());
 	}
 }
