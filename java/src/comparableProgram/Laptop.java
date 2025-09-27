@@ -21,12 +21,12 @@ public class Laptop implements Comparable<Laptop>{
 //	}
 	
 //	Sorting on RAM 
-//	public int compareTo(Laptop l) {
-//		return Integer.compare(this.ram, l.ram);
-//	}
+	public int compareTo(Laptop l) {
+		return Integer.compare(this.ram, l.ram);
+	}
 	
 //	Sorting on Storage
-	public int compareTo(Laptop l) {
-		return Integer.compare(this.storage,l.storage);
-	}
+//	public int compareTo(Laptop l) {
+//		return Integer.compare(this.storage,l.storage);
+//	}
 }
